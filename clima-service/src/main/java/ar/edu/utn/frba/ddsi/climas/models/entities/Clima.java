@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Clima {
+  private Long id;
   private Double temperatura;
   private Integer humedad;
 }

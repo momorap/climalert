@@ -8,4 +8,6 @@ public interface ClimaRepository {
   Clima save(Clima actual);
   Optional<Clima> findLast();
   List<Clima> findAll();
+   void delete(Clima clima);
+
 }
